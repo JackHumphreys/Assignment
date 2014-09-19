@@ -6,9 +6,9 @@ denary_value = int(input("Please enter denary number: "))
 
 binary_string = ""
 
-while denary_value > 0:
+while denary_value > 0 :
     binary_string = str(denary_value%2)+binary_string
-    denary_value = (denary_value/2)
+    denary_value = (denary_value//2)
 
 
 
