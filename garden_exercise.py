@@ -1,10 +1,12 @@
 #Jack Humphreys
-#Garden Exercise
+#Garden Area Exercise
 #16/09/2014
 
-length = float("Please enter length in metres: ")
-width = float("Please enter width in metres: ")
+garden_length = float(input("Please enter length in metres: "))
+garden_width = float(input("Please enter width in metres: "))
 
-area = float(length*width)
+area = float(garden_length*garden_width)
 
-cost = float(area*10)
+price = float(input("Please enter price per square metre: "))
+
+print("The cost of turfing: {0}".format(area*price))
